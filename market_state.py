@@ -1,8 +1,9 @@
+import requests as rq
 from bs4 import BeautifulSoup
-from constants import BASE_URL
+from constants import MAIN_URL
 class market:
     def state(): 
-        html_data=rq.get(BASE_URL, timeout=5).text        
+        html_data=rq.get(MAIN_URL, timeout=5).text        
 
         soup = BeautifulSoup(html_data, 'html.parser') #'html5lib' )
         col = soup.find('tr').find_all('td')
