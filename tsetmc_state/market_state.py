@@ -7,7 +7,7 @@ class market:
 
         soup = BeautifulSoup(html_data, 'html.parser') #'html5lib' )
         col = soup.find('tr').find_all('td')
-        if col and len(col)==2: return col[1].get_text()
+        if col and len(col)==2: return col[1].get_text().strip()
         else: return "نامشخص"
 
 #   by: mehrdad seyfi
