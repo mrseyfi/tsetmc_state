@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from constants import BASE_URL
 class market:
-    def market_state(): 
+    def state(): 
         html_data=rq.get(BASE_URL, timeout=5).text        
 
         soup = BeautifulSoup(html_data, 'html.parser') #'html5lib' )
