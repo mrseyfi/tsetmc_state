@@ -9,3 +9,7 @@ class market:
         col = soup.find('tr').find_all('td')
         if col and len(col)==2: return col[1].get_text()
         else: return "نامشخص"
+
+#   by: mehrdad seyfi
+#   www.mrseyfi.ir
+#   2020-9-2
