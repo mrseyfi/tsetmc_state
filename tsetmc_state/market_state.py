@@ -1,6 +1,6 @@
 import requests as rq
 from bs4 import BeautifulSoup
-from constants import MAIN_URL
+from tsetmc_state.constants import MAIN_URL
 class market:
     def state(): 
         html_data=rq.get(MAIN_URL, timeout=5).text        
