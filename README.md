@@ -19,8 +19,7 @@ This is a http://www.tsetmc.com data crawler.
 <BR/>
 <BR/>
 
-from tsetmc_state import market
-<BR/>
-if(__name__=="__main__"): <BR/>
-    market=market()<BR/>
-    print(pytse.state()) # وضعیت بازار بورس ایران را نمایش می دهد
+<div class="highlight highlight-source-js"><pre>
+from tsetmc_state.market_state import market <BR/>
+print(market.state()) # وضعیت بازار بورس ایران را نمایش می دهد
+</pre></div>
