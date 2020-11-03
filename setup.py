@@ -3,7 +3,7 @@ from pathlib import Path
 setuptools.setup(
     name="tsetmc_state",
     author="Mehrdad Seyfi houjaghan",
-    version="1.2.1",
+    version="1.2.2",
     long_description=Path("README.md").read_text(),
     long_description_content_type='text/markdown',
     description="A small web crawler for tsetmc.com",
