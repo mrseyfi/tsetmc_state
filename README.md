@@ -8,7 +8,7 @@
 market.state()
 </pre></div>
 
-نمایش وضعیت بازار
+بورس ایران - نمایش وضعیت بازار
 <BR/>
 <BR/>
 
@@ -22,4 +22,11 @@ This is a http://www.tsetmc.com data crawler.
 <div class="highlight highlight-source-js"><pre>
 from tsetmc_state.market_state import market <BR/>
 print(market.state()) # وضعیت بازار بورس ایران را نمایش می دهد
+</pre></div>
+
+<BR/>
+<BR/>
+update to last version.
+<div class="highlight highlight-source-js"><pre>
+pip3 install git+https://github.com/mrseyfi/tsetmc_state.git --upgrade
 </pre></div>
