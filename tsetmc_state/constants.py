@@ -1,1 +1,1 @@
-MAIN_URL = "http://www.tsetmc.ir/Loader.aspx?ParTree=15"
+MAIN_URL = "http://www.tsetmc.com/Loader.aspx?ParTree=15"
