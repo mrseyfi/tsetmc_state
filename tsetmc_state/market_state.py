@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from tsetmc_state.constants import MAIN_URL
 class market:
     def state(): 
-        html_data=rq.get(MAIN_URL, timeout=5).text        
+        html_data=rq.get(MAIN_URL, timeout=50).text        
 
         soup = BeautifulSoup(html_data, 'html.parser') #'html5lib' )
         col = soup.find('tr').find_all('td')
