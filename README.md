@@ -25,8 +25,8 @@ print(market.state()) # وضعیت بازار بورس ایران را نمای�
 </pre></div>
 
 <BR/>
-<BR/>
 update to last version.
+
 <div class="highlight highlight-source-js"><pre>
 pip3 install git+https://github.com/mrseyfi/tsetmc_state.git --upgrade
 </pre></div>
